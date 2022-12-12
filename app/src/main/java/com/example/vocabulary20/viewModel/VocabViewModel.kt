@@ -12,7 +12,7 @@ import kotlinx.coroutines.launch
 
 class VocabViewModel(application: Application) : AndroidViewModel(application) {
 
-    private val readAllData: LiveData<List<Vocab>>
+    val readAllData: LiveData<List<Vocab>>
 
     private val repository : VocabRepository
 
